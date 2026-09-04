@@ -27,9 +27,16 @@ int main() {
 
     // appending elements to the vector
     vec1.insert(vec1.end(), 102.2);
-    cout << "Printing vec1 after appending at its end; " << endl;
+    cout << "Printing vec1 after appending at its end: " << endl;
     print_double_vector(vec1);
 
+    // popping two elements from the end
+    vec1.pop_back();
+    vec1.pop_back();
+    cout << "Printing vec1 after two pops from its end: " << endl;
+    print_double_vector(vec1);
+
+    
     return 0;
 }
 
