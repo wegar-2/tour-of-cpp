@@ -20,8 +20,13 @@ int main() {
     std::cout << cct << std::endl;
 
     // append to string
-    
+    std::string first = "Hello, ";
+    std::string second = "World!";
+
+    for (const char& c : second) {
+        first.push_back(c); 
+    }
+    std::cout << "first: " << first << std::endl;
 
     // C++ string is mutable ----> change select elements
-
 }
