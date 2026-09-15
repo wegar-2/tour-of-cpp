@@ -15,4 +15,11 @@ int main() {
         std::cout << "my_map[" << k << "] = " << v << std::endl;
     }
 
+    if (my_map.contains('b')) {
+        std::cout << "my_map contains key 'b'! " << std::endl;
+    }
+
+    if (!my_map.contains('d')) {
+        std::cout << "my_map does not contain key 'd'! " << std::endl;
+    }
 }
