@@ -14,5 +14,5 @@ int main() {
         cout << "updating counts..." << endl;
         my_counts[c]++;
     }
-
+    
 }
