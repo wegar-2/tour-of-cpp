@@ -39,6 +39,11 @@ int main() {
     print_vector(vec1);
 
     // an arbitrary tuple
-    // vector of pairs
+    auto t = make_tuple(string("qwerty"), 123, 909.22, 'Q');
+    auto [x1, x2, x3, x4] = t;
 
+    // vector of pairs
+    vector<pair<int, string>> v;
+    v.push_back(make_pair(123, "qwerty"));
+    v.push_back(make_pair(3232, "polio"));
 }
